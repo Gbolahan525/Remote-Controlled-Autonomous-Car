@@ -20,8 +20,6 @@ The IR receiver decodes each button press, and the car responds:
 
 | Remote button | Action |
 |---------------|--------|
-| ON | Start autonomous mode |
-| OFF | Stop the car |
 | Forward | Drive forward while the button is held |
 | Back | Reverse while the button is held |
 | Left | Turn left on the spot while the button is held |
@@ -45,7 +43,7 @@ flowchart TD
     H --> A
 ```
 
-Once **ON** is pressed, the car keeps running in autonomous mode until another button is pressed. **OFF** stops it, and pressing any direction button takes it out of autonomous mode and back to manual control.
+Once **OK button ** is pressed, the car keeps running in autonomous mode until another button is pressed. **OFF** stops it, and pressing any direction button takes it out of autonomous mode and back to manual control.
 
 Distance is calculated from the echo time of the HC-SR04: `distance (cm) = time (µs) × 0.0343 / 2`, using the speed of sound (343 m/s) and halving it because the pulse travels to the obstacle and back.
 
