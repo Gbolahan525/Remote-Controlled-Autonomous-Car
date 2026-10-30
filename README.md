@@ -110,7 +110,7 @@ The motors drew too much current, which caused them to stall and burned one of t
 3. Open `REMOTE_CONTROLLED_AUTONOMOUS_CAR.ino` in the Arduino IDE.
 4. Select **Arduino Uno** as the board and the correct port under **Tools**, then upload.
 5. **Your remote's button codes may be different.** Open the Serial Monitor (9600 baud), press each button, and replace the codes in the `if (buttonCode == ...)` lines with the numbers you see.
-6. Switch on the battery. Press **ON** for autonomous mode, **OFF** to stop, or use the direction buttons to drive manually.
+6. Switch on the battery. Press **OK** for autonomous mode and use the direction buttons to drive manually.
 
 ## Future Improvements
 
